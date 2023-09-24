@@ -1,0 +1,13 @@
+body {
+    font-family: 'VT323', monospace;
+    background-color: #95D4E6;
+}
+
+.progress {
+    width: 600px;
+    margin: 200px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
