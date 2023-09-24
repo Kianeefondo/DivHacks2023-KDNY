@@ -1,0 +1,38 @@
+body {
+  font-family: "VT323", monospace;
+  background-color: #95d4e6;
+}
+
+.header {
+  width: 100%;
+  margin-top: -35px;
+}
+.main_header {
+  width: 100%;
+  height: auto;
+  object-position: top;
+}
+.container {
+  margin-top: -75px;
+  position: relative;
+  left: 22.5%;
+  width: 100%;
+  max-width: 400px;
+}
+
+#main-img {
+  margin-top: 75px;
+  width: 800px;
+}
+.footer {
+  width: 100%;
+  bottom: 0px;
+  margin-bottom: -350px;
+}
+
+.problem-footer {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  bottom: 0px;
+}

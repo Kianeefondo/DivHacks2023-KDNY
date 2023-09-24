@@ -1,13 +1,30 @@
 <html> 
   <head>
+    <meta charset="UTF-8" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz_styles.css">
+    <link rel="icon" href="images/logo.png">
     <title>Learning Style Assessment</title> 
   </head>
 
   <body> 
+    <div class = "header"><img class="main_header" src = "images/header-image.png"></div>
     <h1>Discover Your Learning Style!</h1> 
+    <div><p style="font-size: 25px; padding-left: 5%; padding-right: 5%; margin-top: 10px; margin-bottom: 10px;">There are 4 types of learning styles: Visual, Audio, Reading/Writing, and Tactile (hands-on). Do you find yourself doodling, do you actively engage in class, do you enjoy doing practice problems and experiments? These questions all determine the type of learner you are! Select below the length for a pre-assessment quiz to discover what kind of learner you are! This will help generate specific types of questions that benefit your learning experience!</p></div>
     <h2>Choose a quiz:</h2>
-    <p> Short Assessment</p>
-    <p> Long Assessment</p>
+
+    <div class = "parent-container">
+      <div class = "container"><img class = "cloud" src = "images/cloud.png">
+        <div class = "centered"><div><a href="quiz-q1.html" id="selection-color">Short Assessment</a></div></div>
+        <p class = "caption" style = "margin-top: -240;">This is a short assessment consisting of 5 questions to quickly determine your learning style.</p>
+      </div>
+      <div class="container"><img class = "cloud" src = "images/cloud.png">
+        <div class = "centered"><a href = "#" id="selection-color">Long Assessment</a></div>
+        <p class = "caption" style = "margin-top: -240;">This is a longer assessment consisting of 20 questions which more thoroughly analyzes your learning style. </p>
+      </div>
+    </div>
     
   </body>
 </html>
