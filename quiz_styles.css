@@ -43,6 +43,7 @@ h2{
 }
 
 .centered {
+    color:#171415;
     font-size: 55px;
     top: 50%;
     left: 0%;
@@ -59,9 +60,31 @@ h2{
     background-color: #835CE2;
     padding: 20px;
     margin: 20px;
+    height: auto;
 }
 
 ul#remove {
     list-style-type: none;
     padding: 0;
+}
+ul{
+    color: #E6EDF1;
+    font-size: 40px;
+    margin-top: 10px;
+}
+li{
+    text-align: left;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color:#E6EDF1;
+}
+
+#selection-color{
+    color:#171415;
+}
+
+a:hover{
+    color: #E076A9;
 }
