@@ -19,7 +19,7 @@ def get_questions():
     return render_template("index.html", table=data)
     '''return jsonify(questions)'''
 
-'''@app.route('/')'''
+
 
 
 
