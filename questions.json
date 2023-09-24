@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "question": "What is 5 + 3?",
+      "answer": 8,
+      "wrongAnswer1": 6,
+      "wrongAnswer2": 7,
+      "wrongAnswer3": 10,
+      "topic": "Addition"
+    },
+    {
+      "id": 2,
+      "question": "If you have 7 apples and you give 2 to your friend, how many apples do you have left?",
+      "answer": 5,
+      "wrongAnswer1": 2,
+      "wrongAnswer2": 7,
+      "wrongAnswer3": 10,
+      "topic": "Subtraction"
+    },
+    {
+      "id": 3,
+      "question": "What is 4 multiplied by 6?",
+      "answer": 24,
+      "wrongAnswer1": 18,
+      "wrongAnswer2": 16,
+      "wrongAnswer3": 28,
+      "topic": "Multiplication"
+    },
+    {
+      "id": 4,
+      "question": "If you have 15 marbles and you share them equally among 3 friends, how many marbles does each friend get?",
+      "answer": 5,
+      "wrongAnswer1": 3,
+      "wrongAnswer2": 7,
+      "wrongAnswer3": 10,
+      "topic": "Division"
+    },
+    {
+      "id": 5,
+      "question": "What is the next number in this sequence: 2, 4, 6, 8, ...?",
+      "answer": 10,
+      "wrongAnswer1": 12,
+      "wrongAnswer2": 16,
+      "wrongAnswer3": 20,
+      "topic": "Patterns"
+    },
+    {
+      "id": 6,
+      "question": "If a rectangle has a length of 5 units and a width of 3 units, what is its area?",
+      "answer": 15,
+      "wrongAnswer1": 8,
+      "wrongAnswer2": 10,
+      "wrongAnswer3": 12,
+      "topic": "Geometry"
+    },
+    {
+      "id": 7,
+      "question": "How many sides does a triangle have?",
+      "answer": 3,
+      "wrongAnswer1": 4,
+      "wrongAnswer2": 5,
+      "wrongAnswer3": 6,
+      "topic": "Geometry"
+    },
+    {
+      "id": 8,
+      "question": "What is the value of 'x' in the equation: 2x + 3 = 7?",
+      "answer": 2,
+      "wrongAnswer1": 3,
+      "wrongAnswer2": 4,
+      "wrongAnswer3": 5,
+      "topic": "Algebra"
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a prime number: 12, 17, or 24?",
+      "answer": 17,
+      "wrongAnswer1": 12,
+      "wrongAnswer2": 24,
+      "wrongAnswer3": 15,
+      "topic": "Number Theory"
+    },
+    {
+      "id": 10,
+      "question": "If you have a dollar bill and a quarter, how much money do you have?",
+      "answer": 1.25,
+      "wrongAnswer1": 0.75,
+      "wrongAnswer2": 1.10,
+      "wrongAnswer3": 2.00,
+      "topic": "Money"
+    }
+  ]

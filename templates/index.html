@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Web App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Table</h2>
+        {% block body %}
+ 
+        {% for row in table %}
+        <option">{{row[1]}}</option>
+        <hr/>
+  {% endfor %}
+  
+        <p>This is a Flask application.</p>
+        
+        
+        {% endblock %}
+    </div>
+    <script>
+        $(document).ready(function(){
+            $.getJSON("http://127.0.0.1:3080/questions", function(data){
+                $.each(data, function(key, value){  
+                    $("#id").append(value.id + "<br>");
+                    $("#question").append(value.question + "<br>");
+                    $("#answer").append(value.answer + "<br>");
+                    $("#wrong1").append(value.wrong1 + "<br>");
+                    $("#wrong2").append(value.wrong2 + "<br>");
+                    $("#wrong3").append(value.wrong3 + "<br>");
+                    $("#topic").append(value.topic + "<br>");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
