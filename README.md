@@ -11,4 +11,4 @@ About this web app:
 
 Here's a walkthrough of our project:
 
-<img src='K2GR8_WAlkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='K2GR8_Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
